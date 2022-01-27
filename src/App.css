@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Headers Styling */
+h4 {
+  margin: 15px 0 15px 0;
+  padding: 15px;
+}
+
+/* Content DIV Styling */
+.contact-content h5 {
+  margin: 10px;
+}
+
+.content h2 {
+  text-transform: uppercase;
+}
+
+.content,
+.contact-content {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 35px;
+}
+
+.content li {
+  list-style: none;
+}
+
+/* Navbar / Navlogo Styling */
+.nav-logo {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: large;
+}
+
+/* Buttons Styling */
+.btn {
+  border-radius: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 10px 10px;
+}
+
+.submit-button .btn {
+  width: 175px;
+}
+
+/* Input Form Styling */
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+/* IMG Styling */
+.profilepic {
+  height: 300px;
+  border-radius: 50px;
+}
+
+/* Icons Styling */
+.fab {
+  font-size: x-large;
+  transition: 500ms ease;
+}
+
+.fab:hover {
+  color: black;
+  transition: 500ms ease;
+}
+
+/* Footer */
+/* 
+.footer-links {
+  list-style: none;
+}
+
+.footer-links i {
+  font-size: x-large;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
