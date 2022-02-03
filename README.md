@@ -15,3 +15,6 @@ Colors are subtle white/lightgrey with green accent colors to highlight for the 
 Functions:
 - Download Curriculum Vitae, Cover Letter, Work References
 - Submit - Emailjs
+
+Start code and view it:
+You will need to install NPM. Open terminal for zipped folder > run command "npm install" and when it's finished, run command "npm start".
