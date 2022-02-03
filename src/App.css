@@ -85,18 +85,40 @@ input {
   transition: 500ms ease;
 }
 
-/* Footer */
-/* 
-.footer-links {
-  list-style: none;
+.btn a {
+  color: white;
+  text-decoration: none;
 }
 
-.footer-links i {
-  font-size: x-large;
+.btn a:hover {
+  color: white;
 }
 
-.row {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* Dark Mode */
+/* #root {
+  background-color: #15292b;
+  color: deepskyblue;
+}
+
+.footer {
+  background-color: #15292b;
+}
+
+.contact-content .form-control {
+  background-color: #b5b5b5;
+  color: black;
+}
+
+.contact-content .form-control:active {
+  background-color: #b5b5b5;
+  color: black;
+}
+
+.contact-content h6 {
+  color: #fff;
+}
+
+.content h6,
+.content li h6 {
+  color: #fff;
 } */

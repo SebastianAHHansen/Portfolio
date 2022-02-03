@@ -8,8 +8,8 @@ function HomePage(props) {
 let navigate = useNavigate();
   return (
      <div className="content">
-        <h2>Sebastian Hansen</h2>
-        <h4>Quick info about me:</h4>
+        <h2>Sebastian Hansens Portfolio</h2>
+        <h4>Front End Developer</h4>
            <li><h6>Full name: Sebastian Hansen</h6></li>
            <li><h6>Age: 29 years old</h6></li>
            <li><h6>City: Stockholm</h6></li>

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import React from "react";
-import FooterBS from "./Components/FooterBS";
+import Footer from "./Components/Footer";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
@@ -15,6 +15,7 @@ import {useNavigate} from 'react-router-dom';
 class App extends React.Component {
   render() {
     return (
+      // <Navbar />
       <Router>
         <Container className="p=0" fluid ={true} >
           <Navbar className="border-bottom"  bg="transparent" expand ="lg">
@@ -34,7 +35,7 @@ class App extends React.Component {
                 <Route path="/contact" element = {<ContactPage />} />
                 <Route path="*" element = {<ErrorPage />} />
                 </Routes>
-          <FooterBS />
+          <Footer />
         </Container>
       </Router>
     );

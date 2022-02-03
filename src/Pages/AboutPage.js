@@ -1,16 +1,19 @@
 import React from "react";
 import {useNavigate} from 'react-router-dom';
 
-
 function AboutPage(props) {
 let navigate = useNavigate();
    return (
       <div className="content">
          <h2>About</h2>
          <h6>Here is my Curriculum Vitae, Cover Letter and Work References for Download.</h6>
-         <button class="btn btn-success" type="submit">Curriculum Vitae</button>
-         <button class="btn btn-success">Cover Letter</button>
-         <button class="btn btn-success">Work References</button>
+         <button class="btn btn-success">
+         <a href="/TestCV.pdf"
+        download>Curriculum Vitae</a></button>
+         <button class="btn btn-success"><a href="/CoverLetter.pdf"
+        download>Cover Letter</a></button>
+         <button class="btn btn-success"><a href="/WorkReferences.pdf"
+        download>Work References</a></button>
             <h4>Description</h4>
             <h6>Lorem</h6>
             <h4>Work Experience</h4>
