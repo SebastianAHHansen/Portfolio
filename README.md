@@ -17,4 +17,9 @@ Functions:
 - Submit - Emailjs
 
 Start code and view it:
-You will need to install NPM. Open terminal for zipped folder > run command "npm install" and when it's finished, run command "npm start".
+You will need to install NPM. Open terminal for zipped folder > 
+1. run command "npm install", 
+2. "npm install react-router-dom", 
+3. "npm install react-icons",
+4. "npm start" and when it's finished, run command:
+5. "npm start".
